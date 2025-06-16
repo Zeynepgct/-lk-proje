@@ -1,12 +1,13 @@
-*Java Array Count Examples*
+# Java Array Count Examples
+
 Bu proje Java'da bir dizide 20'den büyük kaç eleman var birkaç yöntemle saymayı gösterir.
 
-🟣 Proje Açıklaması
+## Proje Açıklaması
 9 integer değerini kullanıcıdan alır.
 
 Bu dizide 20'den büyük kaç eleman var; 4 ayrı yaklaşımla sayar.
 
-🟣 Yöntemler
+## Yöntemler
 ✅ Arrays.stream()
 
 long count = Arrays.stream(numbers).filter(num -> num > 19).count();
@@ -30,7 +31,7 @@ int count = 0;
 for (int num : numbers) {
     if (num > 19) count++;
 }
-🟣 Örnek çıktı
+## Örnek çıktı
 
 Please enter 9 integers:
 1 20 30 40 50 10 5 25 35
